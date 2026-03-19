@@ -1,0 +1,16 @@
+# Core pipeline
+faster-whisper>=1.0.0
+llama-cpp-python>=0.2.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# VAD
+torch>=2.0.0              # Silero VAD (CPU only, no CUDA needed)
+torchaudio>=2.0.0
+
+# TTS — Piper is a binary, install separately (see README)
+# pip install piper-tts   # if using the Python wrapper instead
+
+# Optional: system info tool
+psutil>=5.9.0
