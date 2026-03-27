@@ -27,7 +27,7 @@ Mic → Silero VAD → Faster-Whisper → Qwen (llama.cpp) → Piper TTS → Spe
 ### 1. Clone & install Python deps
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/KeyserSoze7/HAL9000`
 cd voice-assistant
 pip install -r requirements.txt
 ```
